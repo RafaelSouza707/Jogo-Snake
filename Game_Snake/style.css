@@ -1,0 +1,68 @@
+* {
+    font-family: arial;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.canvas {
+    border: 1px solid black;
+    background-color: white;
+    color: white;
+}
+
+.pontuacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.8rem;
+}
+
+.valor-pontuacao {
+    font-weight: 700;
+    font-size: 4.5rem;
+    display: block;
+    margin-top: -10px;
+}
+
+.tela-menu {
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+}
+
+.game-over {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.pontuacao-final {
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.btn-jogar {
+    border: one;
+    border-radius: 100px;
+    padding: 10px 15px 10px 12px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #333;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    cursor: pointer;
+}
